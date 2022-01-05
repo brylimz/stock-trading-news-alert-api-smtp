@@ -8,7 +8,7 @@ NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 STOCK_API_KEY = "CS2OM06H0DEU4IWC"
 NEWS_API_KEY ="8f26c61c91154ecdabb6ceec7f529e42"
 TWILIO_SID = "AC80c8050132a9a26a0679fb1ee6a50dfc"
-TWILIO_AUTH_TOKEN = "8861d33a3a74f81865657f2ca18fb54b"
+TWILIO_AUTH_TOKEN = "b8a71fbd229e8f0d72a391ca50a85d8d"
     ## STEP 1: Use https://www.alphavantage.co/documentation/#daily
 # When stock price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
 
@@ -70,7 +70,7 @@ for article in formatted_articles:
         .create(
         body=article,
         from_='+17605469864',
-        to='+6282388444497, 08'
+        to='+6282388444497'
     )
 
 #Optional TODO: Format the message like this:
